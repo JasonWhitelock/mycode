@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e3685c4717b47590436694c1c1fbbaac {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e3685c4717b47590436694c1c1fbbaac" ></div>
+        
+</body>
+<script>    
+    
+            var map_e3685c4717b47590436694c1c1fbbaac = L.map(
+                "map_e3685c4717b47590436694c1c1fbbaac",
+                {
+                    center: [40.284, -76.649],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9fd77837a888cac541361623d5f07ceb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e3685c4717b47590436694c1c1fbbaac);
+        
+    
+            var marker_af5f1269148cca8d990492c4485bb44e = L.marker(
+                [40.3, -76.659],
+                {}
+            ).addTo(map_e3685c4717b47590436694c1c1fbbaac);
+        
+    
+        var popup_488d756298559e07b00dc96a19117ecd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7fbaf148f603a92ed2728251e339cb5 = $(`<div id="html_a7fbaf148f603a92ed2728251e339cb5" style="width: 100.0%; height: 100.0%;">Hershey Hotel</div>`)[0];
+                popup_488d756298559e07b00dc96a19117ecd.setContent(html_a7fbaf148f603a92ed2728251e339cb5);
+            
+        
+
+        marker_af5f1269148cca8d990492c4485bb44e.bindPopup(popup_488d756298559e07b00dc96a19117ecd)
+        ;
+
+        
+    
+    
+            var marker_488c3ec2e970124f0f502cffbaaa1c94 = L.marker(
+                [40.288, -76.654],
+                {}
+            ).addTo(map_e3685c4717b47590436694c1c1fbbaac);
+        
+    
+        var popup_b80ba5f8b8279a59cba23896194c961c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_341dd674ed987049744d7d0bdafe5283 = $(`<div id="html_341dd674ed987049744d7d0bdafe5283" style="width: 100.0%; height: 100.0%;">Hershey Park</div>`)[0];
+                popup_b80ba5f8b8279a59cba23896194c961c.setContent(html_341dd674ed987049744d7d0bdafe5283);
+            
+        
+
+        marker_488c3ec2e970124f0f502cffbaaa1c94.bindPopup(popup_b80ba5f8b8279a59cba23896194c961c)
+        ;
+
+        
+    
+    
+            var marker_5fe131348dc589a8107e217064d58061 = L.marker(
+                [40.179, -76.179],
+                {}
+            ).addTo(map_e3685c4717b47590436694c1c1fbbaac);
+        
+    
+        var popup_53bd0391e3564136fb6b43cb83efe4ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e956a4ffd10e879c9d95e8c9f4bb4b1 = $(`<div id="html_7e956a4ffd10e879c9d95e8c9f4bb4b1" style="width: 100.0%; height: 100.0%;">Comics and Paperback Plus</div>`)[0];
+                popup_53bd0391e3564136fb6b43cb83efe4ab.setContent(html_7e956a4ffd10e879c9d95e8c9f4bb4b1);
+            
+        
+
+        marker_5fe131348dc589a8107e217064d58061.bindPopup(popup_53bd0391e3564136fb6b43cb83efe4ab)
+        ;
+
+        
+    
+    
+            var marker_9479de691034d15ed10d98c2b96502e2 = L.marker(
+                [40.285, -76.65],
+                {}
+            ).addTo(map_e3685c4717b47590436694c1c1fbbaac);
+        
+    
+            var icon_9a8a9fa309b48413d23add936348920a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9479de691034d15ed10d98c2b96502e2.setIcon(icon_9a8a9fa309b48413d23add936348920a);
+        
+    
+        var popup_d76df1d1a499f59b4e3c2ec3a7e1967c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4fdfc4e4e4d05751cdfd34271182c5d = $(`<div id="html_e4fdfc4e4e4d05751cdfd34271182c5d" style="width: 100.0%; height: 100.0%;">Hershey Factory</div>`)[0];
+                popup_d76df1d1a499f59b4e3c2ec3a7e1967c.setContent(html_e4fdfc4e4e4d05751cdfd34271182c5d);
+            
+        
+
+        marker_9479de691034d15ed10d98c2b96502e2.bindPopup(popup_d76df1d1a499f59b4e3c2ec3a7e1967c)
+        ;
+
+        
+    
+</script>
